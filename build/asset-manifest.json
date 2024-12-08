@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3539f169.css",
+    "main.js": "/static/js/main.3030f9f6.js",
+    "static/media/product2.jpeg": "/static/media/product2.5563248beadf359f1607.jpeg",
+    "static/media/product3.jpeg": "/static/media/product3.c823ad761c4b20463d17.jpeg",
+    "static/media/product1.jpeg": "/static/media/product1.015d777198b01b7d95ff.jpeg",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.1320e7b5c67cb8d00820.jpg",
+    "static/media/product4.jpeg": "/static/media/product4.166e4c7b8a6b699561f4.jpeg",
+    "static/media/logo.jpg": "/static/media/logo.e37c97580e518f17e583.jpg",
+    "index.html": "/index.html",
+    "main.3539f169.css.map": "/static/css/main.3539f169.css.map",
+    "main.3030f9f6.js.map": "/static/js/main.3030f9f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3539f169.css",
+    "static/js/main.3030f9f6.js"
+  ]
+}
