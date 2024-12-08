@@ -1,21 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import AboutUs from "./Components/AboutUs";
-import ContactUs from "./Components/ContactUs";
-import Footer from "./Components/Footer";
-import LandingPage from "./Components/LandingPage";
-import Solutions from "./Components/Solutions";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import LandingPage from './Components/LandingPage';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div className="min-h-screen">
         <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-          </Routes>
-        </main>
+        <LandingPage />
         <Footer />
       </div>
     </Router>
