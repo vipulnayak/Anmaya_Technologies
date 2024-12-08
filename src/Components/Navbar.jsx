@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/Logo.jpg';
 
 const Navbar = () => {
   return (
@@ -15,23 +15,14 @@ const Navbar = () => {
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="flex items-center space-x-2 sm:space-x-4"
           >
-            <Link to="/" className="flex items-center">
+            <Link to="/">
               <img 
                 src={logo} 
                 alt="Anmaya Tech Logo" 
                 className="h-12 sm:h-14 md:h-16 w-auto object-contain rounded-full shadow-lg"
                 loading="eager"
               />
-              <div className="ml-2 sm:ml-4">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 font-['Montserrat']">
-                  ANMAYA
-                </h1>
-                <p className="text-sm sm:text-base md:text-lg text-blue-400 tracking-widest font-light">
-                  TECHNOLOGIES
-                </p>
-              </div>
             </Link>
           </motion.div>
         </div>
